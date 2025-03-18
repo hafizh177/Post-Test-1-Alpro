@@ -19,7 +19,7 @@ int main (){
 	cin >> jumlah_liter;
 	
 	if (jenis_bensin == "pertalite"){
-		total_harga = harga_pertamax * jumlah_liter;
+		total_harga = harga_pertalite * jumlah_liter;
 	} else if (jenis_bensin == "pertamax") {
 		total_harga = harga_pertamax * jumlah_liter;
 	} else {
